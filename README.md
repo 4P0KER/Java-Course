@@ -19,8 +19,8 @@ java Huffman decompress <input_file> [output_file]
 java Huffman d <input_file> [output_file]
 ```
 ## Автоматическое именование
-- При кодировании: 'file.txt' -> 'file.huff'
-- При декодировании: 'file.huff' -> 'file_decoded.txt'
+- При кодировании: `file.txt` -> `file.huff`
+- При декодировании: `file.huff` -> `file_decoded.txt`
 ## Структура закодированного файла
 Программа использует три формата файлов, выбираемых автоматически:
 ## 1. Формат для одного символа (Single Character Format)
